@@ -5,7 +5,6 @@
 [![Docker Pulls](https://img.shields.io/docker/pulls/kylemanna/openvpn.svg)](https://hub.docker.com/r/kylemanna/openvpn/)
 [![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fkylemanna%2Fdocker-openvpn.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fkylemanna%2Fdocker-openvpn?ref=badge_shield)
 [![Build & Push Multi-Arch Docker Image](https://github.com/cwn-dev/docker-openvpn/actions/workflows/docker-image.yml/badge.svg?branch=main)](https://github.com/cwn-dev/docker-openvpn/actions/workflows/docker-image.yml)
-Test
 
 OpenVPN server in a Docker container complete with an EasyRSA PKI CA.
 
