@@ -1,20 +1,15 @@
 # OpenVPN for Docker
 
-[![Build Status](https://travis-ci.org/kylemanna/docker-openvpn.svg)](https://travis-ci.org/kylemanna/docker-openvpn)
-[![Docker Stars](https://img.shields.io/docker/stars/kylemanna/openvpn.svg)](https://hub.docker.com/r/kylemanna/openvpn/)
-[![Docker Pulls](https://img.shields.io/docker/pulls/kylemanna/openvpn.svg)](https://hub.docker.com/r/kylemanna/openvpn/)
-[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fkylemanna%2Fdocker-openvpn.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fkylemanna%2Fdocker-openvpn?ref=badge_shield)
-[![Build & Push Multi-Arch Docker Image](https://github.com/cwn-dev/docker-openvpn/actions/workflows/docker-image.yml/badge.svg?branch=main)](https://github.com/cwn-dev/docker-openvpn/actions/workflows/docker-image.yml)
+[![Build & Push Multi-Arch Docker Image](https://img.shields.io/github/actions/workflow/status/cwn-dev/docker-openvpn/docker-image.yml)](https://github.com/cwn-dev/docker-openvpn/actions/workflows/docker-image.yml)
+[![Latest Release](https://img.shields.io/github/v/release/cwn-dev/docker-openvpn)](https://github.com/cwn-dev/docker-openvpn/releases)
+[![Docker Hub](https://img.shields.io/badge/Docker%20Hub-Check%20in-blue?logo=docker)](https://hub.docker.com/r/cwndev/docker-openvpn)
 
 OpenVPN server in a Docker container complete with an EasyRSA PKI CA.
 
-Extensively tested on [Digital Ocean $5/mo node](http://bit.ly/1C7cKr3) and has
-a corresponding [Digital Ocean Community Tutorial](http://bit.ly/1AGUZkq).
-
 #### Upstream Links
 
-* Docker Registry @ [kylemanna/openvpn](https://hub.docker.com/r/kylemanna/openvpn/)
-* GitHub @ [kylemanna/docker-openvpn](https://github.com/kylemanna/docker-openvpn)
+* Docker Registry @ [cwndev/docker-openvpn](https://hub.docker.com/r/cwndev/docker-openvpn)
+* GitHub @ [cwn-dev/docker-openvpn](https://github.com/cwn-dev/docker-openvpn)
 
 ## Quick Start
 
