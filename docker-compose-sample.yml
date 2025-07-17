@@ -1,0 +1,12 @@
+services:
+  openvpn:
+    image: cwndev/docker-openvpn:latest
+    container_name: openvpn
+    restart: unless-stopped
+    cap_add:
+      - NET_ADMIN
+    ports:
+      - "443:1194/tcp"
+      #- "1194:1194/udp"
+    volumes:
+      - ./openvpn_data/etc/openvpn:/etc/openvpn
