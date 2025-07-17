@@ -44,4 +44,4 @@ The OpenVPN server will read this change every time a client connects (no need t
 
 You can optionally pass `remove` as second parameter to ovpn_revokeclient to remove the corresponding crt, key and req files :
 
-    docker run --rm -it -v $OVPN_DATA:/etc/openvpn kylemanna/openvpn ovpn_revokeclient client1 remove
+    docker run --rm -it -v $OVPN_DATA:/etc/openvpn cwndev/docker-openvpn ovpn_revokeclient client1 remove

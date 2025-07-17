@@ -2,7 +2,7 @@
 set -e
 
 testAlias+=(
-	[kylemanna/openvpn]='openvpn'
+	[cwndev/docker-openvpn]='openvpn'
 )
 
 imageTests+=(
